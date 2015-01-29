@@ -1,0 +1,51 @@
+﻿生成启动时间为 1/15/2015 11:07:31 AM。
+     1>项目“C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\SIAT-CNN\SIAT-CNN.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\SIAT-CNN-Single.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt CCreateNetwork.cpp
+         CCreateNetwork.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\program files (x86)\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(93): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(96): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(1548): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\feixuan\documents\visual studio 2010\projects\siat-cnn-single\siat-cnn\siat-cnn\ccreatenetwork.cpp(1560): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\Debug\FPDectection.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenCV\vc10\lib" /LIBPATH:"C:\Program Files (x86)\OpenCV\vc10\bin" opencv_highgui249d.lib opencv_core249d.lib opencv_ml249d.lib opencv_imgproc249d.lib /MANIFEST /ManifestFile:"Debug\FPDectection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\Debug\FPDectection.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\Debug\FPDectection.lib" /MACHINE:X86 "Debug\SIAT-CNN.res"
+         Debug\CCreateNetwork.obj
+         Debug\CTrainNetwork.obj
+         Debug\main.obj
+         Debug\NeuralNetwork.obj
+         Debug\Preferences.obj
+         Debug\ReadIniFile.obj
+         Debug\StartTraining.obj
+         Debug\StdAfx.obj
+         SIAT-CNN.vcxproj -> C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\Debug\FPDectection.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\Debug\FPDectection.exe.manifest" /manifest Debug\FPDectection.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\Debug\FPDectection.bsc" Debug\CCreateNetwork.sbr Debug\CTrainNetwork.sbr Debug\main.sbr Debug\NeuralNetwork.sbr Debug\Preferences.sbr Debug\ReadIniFile.sbr Debug\StartTraining.sbr Debug\StdAfx.sbr
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SIAT-CNN-Single.unsuccessfulbuild”。
+         正在对“Debug\SIAT-CNN-Single.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\feixuan\Documents\Visual Studio 2010\Projects\SIAT-CNN-Single\SIAT-CNN\SIAT-CNN\SIAT-CNN.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.50
