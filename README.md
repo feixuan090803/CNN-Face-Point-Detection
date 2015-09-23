@@ -23,7 +23,7 @@ This project is about the utilization of CNN to detect human face point. Trained
 2、网络参数配置模块，对网络训练参数初始化配置，比如学习速率，收敛停止条件等，参数设置以配置文件形式进行读取与修改，
    详见：Preferences.h/cpp；
    
-3、网络构建模块，包括对九层网络的逐层构建，层间神经元建立连接，权值的初始化等，详见：CCreateNetwork.h/cpp；
+3、网络构建模块，包括对九层网络的逐层构建，层间神经元建立连接，权值初始化等，详见：CCreateNetwork.h/cpp；
 
 4、网络前向/后向模块，前向计算进行网络计算，后向传播进行网络训练，在训练过程中经过一定次数时将网络权值自动保存为本地文件，
   详见：CCalculateNetwork.h/cpp；
