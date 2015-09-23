@@ -10,7 +10,7 @@ This project is about the utilization of CNN to detect human face point. Trained
          http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm
 
 在调试多线程模块的时候一直有错，暂时就把多线程实现的部分注释掉了。故实际训练时是串行训练的，速度可想而知。
-在博客 http://blog.csdn.net/reporter521/article/details/45567555 里面也说了，纯属抱着学习的心态。 --！
+在博客 http://blog.csdn.net/reporter521/article/details/45567555 里面也说了，纯属抱着学习的心态。 :)
 代码中的注释写的也比较完整，适合对CNN底层实现机制感兴趣的小伙伴。
  
  ---
