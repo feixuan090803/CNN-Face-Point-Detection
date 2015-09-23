@@ -8,8 +8,7 @@ This project is about the utilization of CNN to detect human face point. Trained
          http://www.codeproject.com/Articles/16650/Neural-Network-for-Recognition-of-Handwritten-Digi 
 
 论文参考的是：
-         http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm，
-训练数据在官方主页里也提供了。
+         http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm ，训练数据在官方主页里也提供了。
          
 
 在调试多线程模块的时候一直有错，暂时就把多线程实现的部分注释掉了。故实际训练时是串行训练的，速度可想而知。
